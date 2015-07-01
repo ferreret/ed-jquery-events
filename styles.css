@@ -1,0 +1,57 @@
+body {
+	margin: 0 auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	
+}
+
+#botones a {
+	background-color: #343334;
+	color: white;
+	margin: 5px;
+	padding: 15px; 
+}
+
+#container a {	
+	color: white;	
+	padding: 15px; 	
+	position: relative;
+	top: 50px;
+}
+
+#target, #container {
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 350px;
+	margin: 0 auto 30px;
+	width: 350px;	
+	transition: all .3s;
+}
+
+.yellow {
+	background-color: lightyellow;
+}
+
+.blue {
+	background-color: lightblue;
+}
+
+.red {
+	background-color: tomato;
+}
+
+.green {
+	background-color: lightgreen;
+}
+
+.active {
+	border: 3px solid black;
+	font-weight: bold;
+}
